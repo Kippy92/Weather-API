@@ -1,0 +1,15 @@
+<h1 style='text-align: center'>
+    Burbank, CA
+  </h1>
+  <div class='container'>
+    <div class='col-lg-6' style='display: inline-block'>
+      <p>Humidity: {{ weather.main.humidity }}%  </p>
+      <p>Temperature (High): {{ tempMax }}°F </p>
+      <p>Temperature (Average): {{ tempAvg }}°F </p>
+      <p>Temperature (Low): {{ tempMin }}°F </p>
+      <p>Status: {{ weather.weather[0].description }} </p>
+    </div>
+    <div class='col-lg-6' style='display: inline-block; vertical-align: top'>
+      <img src='http://cdn.mntm.me/d0/f0/22/view_of_Universal_City_and_Burbank-Burbank-California-d0f0223e827544dd8527344ea594baa9_c.jpg' style='height: 200px; width: 400px'>
+    </div>
+  </div>

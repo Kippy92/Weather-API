@@ -1,0 +1,21 @@
+<div style="text-align: center">
+  <h1>
+    {{ title }}
+  </h1>
+</div>
+<nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" [routerLink]="['/dc']">Home</a>
+      </div>
+      <div class="navbar">
+        <strong>|</strong><a class="navbar-brand" [routerLink]="['/dc']">DC</a><strong>|</strong>
+        <a class="navbar-brand" [routerLink]="['/chicago']">Chicago</a><strong>|</strong>
+        <a class="navbar-brand" [routerLink]="['/burbank']">Burbank</a><strong>|</strong>
+        <a class="navbar-brand" [routerLink]="['/dallas']">Dallas</a><strong>|</strong>
+        <a class="navbar-brand" [routerLink]="['/sanjose']">San Jose</a><strong>|</strong>
+        <a class="navbar-brand" [routerLink]="['/seattle']">Seattle</a>
+      </div>
+    </div>
+  </nav>
+<router-outlet></router-outlet>

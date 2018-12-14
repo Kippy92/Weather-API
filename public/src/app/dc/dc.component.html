@@ -1,0 +1,15 @@
+<h1 style='text-align: center'>
+  Washington, DC
+</h1>
+<div class='container'>
+  <div class='col-lg-6' style='display: inline-block'>
+    <p>Humidity: {{ weather.main.humidity }}%  </p>
+    <p>Temperature (High): {{ tempMax }}°F </p>
+    <p>Temperature (Average): {{ tempAvg }}°F </p>
+    <p>Temperature (Low): {{ tempMin }}°F </p>
+    <p>Status: {{ weather.weather[0].description }} </p>
+  </div>
+  <div class='col-lg-6' style='display: inline-block; vertical-align: top'>
+    <img src='https://knowtheword.com/wp-content/uploads/2018/08/capitol-building-170402241-58ddb7bf5f9b58468374c174.jpg' style='height: 200px; width: 400px'>
+  </div>
+</div>
